@@ -4,7 +4,9 @@ namespace Zombie.Rpg.Classes.Models.Items.Equipments.Container
 {
     public class Backpack : Equipment
     {
-        public float MaxWeight;
-        public Slot[,] slots;
+        /// <summary>
+        /// Defines the weight % that will be reduced from the items inside the container
+        /// </summary>
+        public float WeightMultiplier;
     }
 }
