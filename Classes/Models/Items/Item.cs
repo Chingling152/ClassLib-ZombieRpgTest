@@ -15,15 +15,15 @@ namespace Zombie.Rpg.Classes.Models.Items
         /// <summary>
         /// Defines the description of the item
         /// </summary>
-        public string description;
+        public string Description;
         /// <summary>
-        /// Defines the condition of the item (May affect everything)
+        /// Defines the condition of the item (Affects almost everything)
         /// </summary>
-        public sbyte status;
+        public sbyte Status;
         /// <summary>
         /// 
         /// </summary>
-        public FileInfo icon;// fix this
+        public FileInfo Icon;// fix this
         /// <summary>
         /// Defines the weight of the item
         /// </summary>

@@ -11,9 +11,9 @@ namespace Zombie.Rpg.Classes.Models.Items.Equipments
         public List<Material> materials;
         
         /// <summary>
-        /// Defines the resistance of the Equipment  
-        /// Is defined by the condition multiplied by the resistance of the materials
+        /// Defines the general resistance of the Equipment  
+        /// Is defined by the condition multiplied and the resistance of the materials
         /// </summary>
-        public float Resistance;
+        protected float resistance;
     }
 }
