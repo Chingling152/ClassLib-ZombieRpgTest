@@ -4,6 +4,6 @@ namespace Zombie.Rpg.Classes.Models.Items.Equipments.Weapons.FireArms
 {
     public class Shotgun : FireArm
     {
-        public Bullet[] bullets;
+        public Bullet[] ammo;
     }
 }
