@@ -6,5 +6,6 @@ namespace Zombie.Rpg.Classes.Models.Items.Resources.VehicleParts.Front
         public CarBatery batery;
         public Engine engine;
         public Hood hood;
+        public CarLight[] headlight;
     }
 }
