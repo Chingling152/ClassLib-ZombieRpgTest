@@ -6,5 +6,6 @@ namespace Zombie.Rpg.Classes.Models.Items.Resources.VehicleParts.Back
         /// % of the protection of the integrity of the Trunk against impacts
         /// </summary>
         public float Protection;
+        public bool isLocked;
     }
 }
