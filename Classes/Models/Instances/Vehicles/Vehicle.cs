@@ -19,14 +19,20 @@ namespace Zombie.Rpg.Classes.Models.Instances.Vehicles
     /// </summary>   
     public abstract class Vehicle
     {
+        #region Properties
         public System.Drawing.Color color;
         public VehicleType vehicleType;
-
+        public bool isOn;
+        #endregion
+        
+        #region VehicleParts
         public Wheel[] wheel;
         public Door[] doors;
         public FrontPart frontPart;
         public VehicleBody Body;
         public BackPart trunk;
+        #endregion
+
         
         /// <summary>
         /// Creates an array with default Wheels

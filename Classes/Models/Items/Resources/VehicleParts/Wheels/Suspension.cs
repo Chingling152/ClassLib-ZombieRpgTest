@@ -1,6 +1,6 @@
 namespace Zombie.Rpg.Classes.Models.Items.Resources.VehicleParts.Wheels
 {
-    public class Suspension : VehiclePart
+    public sealed class Suspension : VehiclePart
     {
         /// <summary>
         /// Defines the damping of the Suspension  
