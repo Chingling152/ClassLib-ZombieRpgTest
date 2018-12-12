@@ -1,3 +1,5 @@
+using Zombie.Rpg.Classes.Models.Instances.Vehicles;
+
 namespace Zombie.Rpg.Classes.Models.Items.Resources.VehicleParts.Front
 {
     public class FrontPart : VehiclePart

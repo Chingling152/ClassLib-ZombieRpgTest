@@ -7,7 +7,7 @@ namespace Zombie.Rpg.Classes.Models.Items.Resources.VehicleParts.Wheels
         /// <summary>
         /// Defines how much efective is the Brake
         /// </summary>
-        public float Force{
+        public int Force{
             get{
                 return Force;
             }
@@ -15,9 +15,6 @@ namespace Zombie.Rpg.Classes.Models.Items.Resources.VehicleParts.Wheels
                 Force = Rules.MaxValue(value);
             }
         }
-
-        public Brake(){
-            Force = 0.75f;
-        }
+        
     }
 }

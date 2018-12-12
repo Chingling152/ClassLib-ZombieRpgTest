@@ -1,5 +1,3 @@
-using System.IO;
-
 namespace Zombie.Rpg.Classes.Models.Items
 {
     public abstract class Item 
@@ -19,11 +17,11 @@ namespace Zombie.Rpg.Classes.Models.Items
         /// <summary>
         /// Defines the condition of the item (Affects almost everything)
         /// </summary>
-        public sbyte Status;
+        public float Status;
         /// <summary>
-        /// 
+        /// The name of the icon of the Item
         /// </summary>
-        public FileInfo Icon;// fix this
+        public string IconName;// fix this
         /// <summary>
         /// Defines the weight of the item
         /// </summary>

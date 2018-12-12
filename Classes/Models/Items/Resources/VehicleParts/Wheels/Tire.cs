@@ -9,6 +9,7 @@ namespace Zombie.Rpg.Classes.Models.Items.Resources.VehicleParts.Wheels
         private float friction;
         #endregion
 
+        #region Properties and Public Fields
         /// <summary>
         /// Defines the size of the Tire
         /// </summary>
@@ -39,11 +40,6 @@ namespace Zombie.Rpg.Classes.Models.Items.Resources.VehicleParts.Wheels
                 friction = Rules.MaxValue(value);
             }
         }
-
-        public Tire(){
-            Rim = 17;
-            AirPresure = 0.5f;
-            Friction = 0.5f;
-        }
+        #endregion
     }
 }
