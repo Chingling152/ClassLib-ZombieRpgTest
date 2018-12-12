@@ -31,39 +31,7 @@ namespace Zombie.Rpg.Classes.Models.Instances.Vehicles
         public FrontPart frontPart;
         public VehicleBody Body;
         public BackPart trunk;
-        #endregion
-
-        
-        /// <summary>
-        /// Creates an array with default Wheels
-        /// </summary>
-        /// <param name="size">Number of Wheels</param>
-        /// <returns>An array with default Wheels</returns>
-        public static Wheel[] CreateWheel(int size){
-            Wheel[] Wheel = new Wheel[size];
-
-            for (int i = 0; i < size-1; i++)
-            {
-                Wheel[i] = new Wheel();
-            }
-            return Wheel;
-        }
-        /// <summary>
-        /// Creates an array with default Doors
-        /// </summary>
-        /// <param name="size">Number of Doors</param>
-        /// <returns>An array with default Doors</returns>
-        public static Door[] CreateDoor(int size){
-            Door[] door = new Door[size];
-
-            for (int i = 0; i < size-1; i++)
-            {
-                door[i] = new Door();
-            }
-            return door;
-        }
-
-        
+        #endregion        
     }
 
 }
